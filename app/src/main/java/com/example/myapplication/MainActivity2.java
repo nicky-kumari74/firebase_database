@@ -31,7 +31,7 @@ public class MainActivity2 extends AppCompatActivity {
         t3=findViewById(R.id.et3);
         t4=findViewById(R.id.et4);
         btn=findViewById(R.id.btn);
-        FirebaseApp.initializeApp(this);
+        /*FirebaseApp.initializeApp(this);
         FirebaseDatabase db=FirebaseDatabase.getInstance();
         DatabaseReference root=db.getReference().child("users");
         btn.setOnClickListener(new View.OnClickListener() {
@@ -60,6 +60,6 @@ public class MainActivity2 extends AppCompatActivity {
                     }
                 },3000);
             }
-        });
+        });*/
     }
 }

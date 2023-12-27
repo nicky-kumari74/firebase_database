@@ -34,7 +34,7 @@ Button btn;
         t2=findViewById(R.id.paswrd);
         btn=findViewById(R.id.btn1);
         reg=findViewById(R.id.reg);
-        reg.setOnClickListener(new View.OnClickListener() {
+        /*reg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent it=new Intent(MainActivity3.this,MainActivity2.class);
@@ -96,7 +96,7 @@ Button btn;
                     }
                 });
             }
-        });
+        });*/
 
     }
 }
