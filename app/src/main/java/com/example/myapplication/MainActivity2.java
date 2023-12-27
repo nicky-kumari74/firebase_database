@@ -31,35 +31,6 @@ public class MainActivity2 extends AppCompatActivity {
         t3=findViewById(R.id.et3);
         t4=findViewById(R.id.et4);
         btn=findViewById(R.id.btn);
-        /*FirebaseApp.initializeApp(this);
-        FirebaseDatabase db=FirebaseDatabase.getInstance();
-        DatabaseReference root=db.getReference().child("users");
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String n=t1.getText().toString();
-                String m=t2.getText().toString();
-                String p=t3.getText().toString();
-                String q=t4.getText().toString();
-                HashMap<String,String> usermap=new HashMap<>();
-                usermap.put("username",n);
-                usermap.put("email",m);
-                usermap.put("phone",p);
-                usermap.put("password",q);
 
-                root.child(n).setValue(usermap);
-                Dialog dialog=new Dialog(MainActivity2.this);
-                dialog.setContentView(R.layout.popup);
-                dialog.show();
-                new Handler().postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        Intent i=new Intent(MainActivity2.this,MainActivity3.class);
-                        startActivity(i);
-                        finish();
-                    }
-                },3000);
-            }
-        });*/
     }
 }
