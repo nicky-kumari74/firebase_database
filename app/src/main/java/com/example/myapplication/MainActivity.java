@@ -10,6 +10,7 @@ import android.widget.RadioButton;
 
 public class MainActivity extends AppCompatActivity {
  RadioButton b1,b2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
